@@ -3,7 +3,7 @@ import logging
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 
-from logger.logger.logging import get_logger
+from logger.logger import get_logger
 
 class AppException(Exception):
     def __init__(self, code: str, message: str, status_code: int = 400, details: dict = None):
