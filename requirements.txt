@@ -1,3 +1,3 @@
 fastapi==0.111.0
 starlette==0.37.2
-git+https://github.com/bkarakira/python-be-common.git@setup-python-lib#subdirectory=common/logger
+git+https://github.com/bkarakira/python-be-common-logger

@@ -10,7 +10,7 @@ license = "MIT"
 python = "^3.12"
 fastapi = "^0.111.0"
 starlette = "^0.37.2"
-logger = { git = "https://github.com/bkarakira/python-be-common-logger.git@main" }
+logger = { git = "https://github.com/bkarakira/python-be-common-logger@main" }
 
 [build-system]
 requires = ["poetry-core"]
