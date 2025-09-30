@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "error"
+version = "0.1.0"
+description = "Reusable error handling utility"
+authors = ["Bilal <you@example.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+starlette = "^0.37.2"
+logger = { git = "https://github.com/bkarakira/python-be-common.git#subdirectory=common/logger", rev = "setup-python-lib" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
